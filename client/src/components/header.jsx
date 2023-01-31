@@ -1,5 +1,7 @@
 import { useState } from "react";
 import pic from './images/logo.png';
+import { Link } from 'react-router-dom'
+import { Button } from 'react-bootstrap'
 
 export default function NavBar() {
     const [navbar, setNavbar] = useState(false);
@@ -82,6 +84,13 @@ export default function NavBar() {
                             <li className="text-white hover:text-indigo-200">
                                 <a href="javascript:void(0)"># Metal</a>
                             </li>
+                            <Link to='/genre'>
+                                <Button className="text-white hover:text-indigo-200"
+                                        variant='link'>
+                                    Create a Chat Group!
+                                </Button>
+                            </Link>
+
                         </ul>
                     </div>
                 </div>
