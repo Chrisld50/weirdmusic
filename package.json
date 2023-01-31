@@ -26,6 +26,7 @@
   },
   "homepage": "https://github.com/emmavazquez13/weirdmusic#readme",
   "dependencies": {
-    "concurrently": "^7.6.0"
+    "concurrently": "^7.6.0",
+    "node": "^16.13.2"
   }
 }
